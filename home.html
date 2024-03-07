@@ -8,25 +8,35 @@
 </head>
 <body>
     <div class="container-fluid">
-        <nav class="navbar mx-auto px-2 bg-primary text-white">
-            <h3>TheClassicalComposers</h3>
-            <select name="era" id="era">
-                <option value="Baroque">Baroque</option>
-                <option value="Classical">Classical</option>
-                <option value="Romantic">Romantic</option>
-                <option value="20th Century">20th Century</option>
-            </select>
-            <select name="Composers" id="composers">
-                <option value="Bach">Bach</option>
-                <option value="Vivaldi">Vivaldi</option>
-                <option value="Mozart">Mozart</option>
-                <option value="Haydn">Haydn</option>
-                <option value="Beethoven">Beethoven</option>
-                <option value="Chopin">Baroque</option>
-                <option value="Stravinsky">Stravinsky</option>
-                <option value="Cage">Cage</option>
-            </select>
+        <nav class="navbar mx-auto px-4 bg-primary text-white row">
+            <h3 class="col-sm">TheClassicalComposers</h3>
+            <div class="col-sm" class="era" style="display:flex">
+                <label for="era"  >Search by Era:</label>
+                <select class="form-select"  name="era" id="era">
+                    <option value="Baroque">Baroque</option>
+                    <option value="Classical">Classical</option>
+                    <option value="Romantic">Romantic</option>
+                    <option value="20th Century">20th Century</option>
+                </select>
+            </div>
+            <div class="col-sm" class="composers" style="display:flex">
+                <label for="composers"  class="text-center">Search by Composer:</label>
+                <select class="form-select" name="composers" id="composers">
+                    <option value="Bach">Bach</option>
+                    <option value="Vivaldi">Vivaldi</option>
+                    <option value="Mozart">Mozart</option>
+                    <option value="Haydn">Haydn</option>
+                    <option value="Beethoven">Beethoven</option>
+                    <option value="Chopin">Baroque</option>
+                    <option value="Stravinsky">Stravinsky</option>
+                    <option value="Cage">Cage</option>
+                </select>
+            </div>
         </nav>
+        <main  class="d-flex flex-column align-items-center">
+            <h1 class="text-primary">Welcome!</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NwyenL2ZKng?si=zrR3mk0qslbbRkTT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </main>
     </div>
 </body>
 </html>
