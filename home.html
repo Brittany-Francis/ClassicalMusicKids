@@ -22,7 +22,7 @@
             </div>
             <div class="col-sm" class="composers" style="display:flex">
                 <label for="composers"  class="text-center">Search by Composer:</label>
-                <select class="form-select" name="composers" id="composers">
+                <select onchange="location = this.value;" class="form-select" name="composers" id="composers">
                     <option value="/bach.html">Bach</option>
                     <option value="/vivaldi.html">Vivaldi</option>
                     <option value="/mozart.html">Mozart</option>
