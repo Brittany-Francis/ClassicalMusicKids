@@ -12,12 +12,12 @@
             <h3 class="col-sm">TheClassicalComposers</h3>
             <div class="col-sm" class="era" style="display:flex">
                 <label for="era"  >Search by Era:</label>
-                <select class="form-select"  name="era" id="era">
-                    <option value="Renaissance">Renaissance</option>
-                    <option value="Baroque">Baroque</option>
-                    <option value="Classical">Classical</option>
-                    <option value="Romantic">Romantic</option>
-                    <option value="20th Century/Modern">20th Century/Modern</option>
+                <select onchange="javascript:location.href = this.value;" class="form-select"  name="era" id="era">
+                    <option value="/renaissance">Renaissance</option>
+                    <option value="/baroque">Baroque</option>
+                    <option value="/classical">Classical</option>
+                    <option value="/romantic">Romantic</option>
+                    <option value="/modern">20th Century/Modern</option>
                 </select>
             </div>
             <div class="col-sm" class="composers" style="display:flex">
