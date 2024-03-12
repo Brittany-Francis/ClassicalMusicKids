@@ -9,7 +9,7 @@
 <body>
     <div class="container-fluid">
         <nav class="navbar mx-auto px-4 bg-primary text-white row">
-            <h3 class="col-sm">TheClassicalComposers</h3>
+            <h3 class="col-sm" onMouseOver="this.style.cursor='pointer'" onclick="window.location= '/home.html'" >TheClassicalComposers</h3>
             <div class="col-sm" class="era" style="display:flex">
                 <label for="era"  >Search by Era:</label>
                 <select onchange="location = this.value;" class="form-select"  name="era" id="era">
@@ -37,7 +37,24 @@
                 </select>
             </div>
         </nav>
-        <h1>Baroque</h1>
+        <main class="d-flex flex-column align-items-center">
+            <h1 class="m-2">About The Baroque Era</h1>
+            <p class="col-8 border border-primary rounded p-3 ">From the years of 1600-1750, baroque music flourished. The music was highly complex and ornamented, especially compared with music of the Renaissance. Baroque music was prevalent in Europe, being practiced in many countries including Italy, Germany, France, and England. Some of the most famous baroque composers include Johann Sebastian Bach, Antonio Vivaldi, George Frideric Handel, Henry Purcell, and Jean-Baptiste Lully. These composers composed many types of works, including operas, oratorios, cantatas, sonatas, suites, and concerti. </p>
+            <h3>Baroque Composers:</h3>
+            <div class="d-flex border border-primary rounded p-2">
+               <div class="d-inline-flex flex-column p-2 align-items-center">
+                <p>Johann Sebastian Bach</p>
+                <img src="./assets/Johann_Sebastian_Bach.jpg" alt="Johann Sebastian Bach" width="150" onclick="window.location= '/bach.html'" onMouseOver="this.style.cursor='pointer'">
+                </div>
+                <div class="d-inline-flex flex-column p-2 align-items-center">
+                    <p onclick="window.location= '/vivaldi.html'">Antonio Vivaldi</p>
+                    <img src="./assets/vivaldi.jpeg" alt="Antonio Vivaldi" width="150" onclick="window.location= '/vivaldi.html'"  onMouseOver="this.style.cursor='pointer'">
+                </div>
+            </div>
+            <p>Click a composer's picture to learn more!</p> 
+            
+
+        </main>
     </div>
 </body>
 </html>
