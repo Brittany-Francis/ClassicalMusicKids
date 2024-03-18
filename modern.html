@@ -36,10 +36,35 @@
                     <option value="/tchaikovsky.html">Tchaikovsky</option>
                     <option value="/stravinsky.html">Stravinsky</option>
                     <option value="/cage.html">Cage</option>
+                    <option value="/williams.html">Williams</option>
                 </select>
             </div>
         </nav>
-        <h1>20th Century</h1>
+        <main class="d-flex flex-column align-items-center">
+            <h1 class="m-2">About 20th Century and Modern Music</h1>
+            <p class="col-8 border border-primary rounded p-3 ">
+                -years, about, where, composers, instruments, types of songs </p>   
+            <h3>20th Century/Modern Composers</h3>       
+           
+            <div class="col-8 d-flex justify-content-center border border-primary rounded p-2">
+                <div class="d-inline-flex flex-column p-2 align-items-center">
+                    <p onclick="window.location= '/stravinsky.html'" onMouseOver="this.style.cursor='pointer'">Igor Stravinsky</p>
+                    <img src="./assets/stravinsky.jpg" alt="Igor Stravinsky" width="150" onclick="window.location= '/stravinsky.html'"  onMouseOver="this.style.cursor='pointer'">
+                </div>
+                <div class="d-inline-flex flex-column p-2 align-items-center">
+                    <p onclick="window.location= '/williams.html'" onMouseOver="this.style.cursor='pointer'">John Williams</p>
+                    <img src="./assets/williams.jpg" alt="John Williams" width="150" onclick="window.location= '/williams.html'"  onMouseOver="this.style.cursor='pointer'">
+                </div>
+                <div class="d-inline-flex flex-column p-2 align-items-center">
+                <p onclick="window.location= '/cage.html'" onMouseOver="this.style.cursor='pointer'">John Cage</p>
+                <img src="./assets/cage.jpg" alt="John Cage" width="150" onclick="window.location= '/cage.html'" onMouseOver="this.style.cursor='pointer'">
+                </div>
+            </div>
+        
+            <p>Click a composer's picture to learn more!</p> 
+            <iframe class="col-8 mb-3" width="560" height="315" src="https://www.youtube.com/embed/Ttt0Ef7_9_8?si=-ARF1ZrozZ6f4QNg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        
+
+        </main>
     </div>
 </body>
 </html>

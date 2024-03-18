@@ -36,10 +36,37 @@
                     <option value="/tchaikovsky.html">Tchaikovsky</option>
                     <option value="/stravinsky.html">Stravinsky</option>
                     <option value="/cage.html">Cage</option>
+                    <option value="/williams.html">Williams</option>
                 </select>
             </div>
         </nav>
-        <h1>Romantic</h1>
+        <main class="d-flex flex-column align-items-center">
+            <h1 class="m-2">About The Romantic Era</h1>
+            <p class="col-8 border border-primary rounded p-3 ">
+                -years, about, where, composers, instruments, types of songs </p>   
+            <h3>Romantic Composers</h3>       
+           
+            <div class="col-8 d-flex justify-content-center border border-primary rounded p-2">
+                <div class="d-inline-flex flex-column p-2 align-items-center">
+                <p onclick="window.location= '/chopin.html'" onMouseOver="this.style.cursor='pointer'">Frédéric Chopin</p>
+                <img src="./assets/chopin.jpg" alt="Frédéric Chopin" width="150"  onclick="window.location= '/chopin.html'" onMouseOver="this.style.cursor='pointer'">
+                </div>
+                <div class="d-inline-flex flex-column p-2 align-items-center">
+                    <p onclick="window.location= '/tchaikovsky.html'" onMouseOver="this.style.cursor='pointer'">Pyotr Ilyich Tchaikovsky</p>
+                    <img src="./assets/tchaikovsky.jpg" alt="Pyotr Ilyich Tchaikovsky" width="150"  onclick="window.location= '/tchaikovsky.html'"  onMouseOver="this.style.cursor='pointer'">
+                </div>
+                <div class="d-inline-flex flex-column p-2 align-items-center">
+                    <p onclick="window.location= '/beethoven.html'" onMouseOver="this.style.cursor='pointer'">Ludwig van Beethoven
+                    </p>
+                    <img src="./assets/beethoven.jpg" alt="Ludwig van Beethoven
+                    " width="150" onclick="window.location= '/beethoven.html'"  onMouseOver="this.style.cursor='pointer'">
+                </div>
+            </div>
+        
+            <p>Click a composer's picture to learn more!</p> 
+            <iframe class="col-8 mb-3" width="560" height="315" src="https://www.youtube.com/embed/UAKWm1LfSes?si=HXJe9rDKscMb_v-v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        </main>
     </div>
 </body>
 </html>
